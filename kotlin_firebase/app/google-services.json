@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "621405158290",
+    "firebase_url": "https://itcoisas.firebaseio.com",
+    "project_id": "itcoisas",
+    "storage_bucket": "itcoisas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621405158290:android:3787b5a408f32b18",
+        "android_client_info": {
+          "package_name": "com.example.marcoseng.kotlin_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621405158290-u2iaa86sgcsvljhrpdhc3jujocljujql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlee-20YXGI99tCC91N0ReyQdsMSMe5-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
