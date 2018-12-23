@@ -4,52 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     >
 
-    <TextView
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/cameraMl"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="70dp"
-        android:text="Insira um comando"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:textAlignment="center"/>
-    <EditText
-        android:id="@+id/edt_text1"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_camera"
+        android:layout_marginBottom="-48dp"
+        app:ckFacing="@string/stateCam"
+        app:ckFocus="continuous">
+
+    </com.wonderkiln.camerakit.CameraView>
+    <com.example.marcoseng.kotlin_firebase.helper.GraphicOverlay
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="106dp"
-        android:textAlignment="center"
-        />
+        android:layout_height="match_parent"
+        android:id="@+id/overlay_id"/>
+
 
     <Button
-
-        android:id="@+id/btn_inserir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="145dp"
-        android:layout_marginTop="184dp"
-        android:background="@color/colorAccent"
-        android:text="Enviar" />
-
-    <TextView
-        android:id="@+id/txt_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:id="@+id/btn_camera"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="195dp"
-        android:hint="comandos"
-        android:textAlignment="center"/>
+        android:text="@string/select"
+        android:background="@color/colorPrimary"/>
 
+    
 
 
 </RelativeLayout>
